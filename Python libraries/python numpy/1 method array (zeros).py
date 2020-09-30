@@ -1,0 +1,15 @@
+import numpy as np
+j=np.zeros((4,3))
+n=np.linspace(0,1,5)
+print(j)
+print(n)
+x = [10,2,3,4,5,9,3]
+y = np.array(x)
+print(y)
+print(y.max())
+print(y.min())
+print(np.random.rand(4))
+print(np.random.randn(4))
+print(np.random.randint(10,20))
+print(y.argmin())
+print(y.argmax())

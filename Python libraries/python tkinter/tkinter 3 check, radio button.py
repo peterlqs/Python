@@ -1,0 +1,18 @@
+from tkinter import *
+
+win = Tk()
+win.geometry("600x400")
+c1 = IntVar()
+c2 = IntVar()
+cb = Checkbutton(win, text='Music', offvalue=0, onvalue=1, height=10, width=30, variable=c1)
+cb2 = Checkbutton(win, text='Video', offvalue=0, onvalue=1, height=10, width=30, variable=c2)
+var = IntVar()
+r1 = Radiobutton(win, text="hello1", variable=var, value=1)
+r2 = Radiobutton(win, text="hello2", variable=var, value=2)
+r3 = Radiobutton(win, text="hello3", variable=var, value=3)
+r1.pack()
+r2.pack()
+r3.pack()
+cb.pack()
+cb2.pack()
+win.mainloop()
